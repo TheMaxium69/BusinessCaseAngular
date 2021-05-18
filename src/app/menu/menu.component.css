@@ -1,3 +1,18 @@
+/*Back*/
+div#back {
+  position: absolute;
+  height: 422px;
+  left: -357px;
+  right: 0px;
+  top: 0px;
+
+  background: url("/assets/background.jpg");
+  background-position: top -200px right 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*Navbar*/
 div#navbar{
   position: absolute;
   height: 52px;
@@ -91,15 +106,72 @@ div#title{
   background-repeat: no-repeat;
 }
 
-div#back {
+/*Footer*/
+div#footer{
   position: absolute;
-  height: 422px;
-  left: -357px;
+  height: 47px;
+  left: 0px;
   right: 0px;
-  top: -50px;
+  top: 1050px;
 
-  background: url("/assets/background.jpg");
-  background-position: top -200px right 0px;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: #FFFFFF;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+div.textFoot{
+  font-family: Oxygen Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 14px;
+  color: #000000;
+}
+
+div.upperFoot{
+  text-decoration-line: underline;
+}
+
+div#copText{
+  position: absolute;
+  width: 278px;
+  height: 14px;
+  left: 30px;
+  top: 18px;
+}
+
+div#cguText{
+  position: absolute;
+  width: 212px;
+  height: 14px;
+  right: 496px;
+  top: 18px;
+}
+
+div#ilText{
+  position: absolute;
+  width: 133px;
+  height: 14px;
+  right: 312px;
+  top: 18px;
+}
+
+div#faqText{
+  position: absolute;
+  width: 34px;
+  height: 14px;
+  right: 234px;
+  top: 18px;
+}
+
+div#comText{
+  position: absolute;
+  width: 93px;
+  height: 14px;
+  right: 67px;
+  top: 18px;
+}
+
+a.btnFooter{
+  text-decoration: none;
+  color: black;
 }
