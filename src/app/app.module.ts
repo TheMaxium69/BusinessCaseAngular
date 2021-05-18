@@ -5,16 +5,23 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {RouterModule, Routes} from "@angular/router";
+import { ErrorComponent } from './error/error.component';
+import { HomeComponent } from './home/home.component';
+import { MenuComponent } from './menu/menu.component';
 
 const approutes: Routes = [
   /*{path: 'exemple', component: ExempleComponent},
-  {path: 'del/:id', component: ExempleDelComponent},
-  {path: '', component: ExempleComponent },
-  {path: '**', component: ExempleComponent },*/
+  {path: 'del/:id', component: ExempleDelComponent},*/
+  {path: 'home', component: HomeComponent },
+  {path: '', component: HomeComponent },
+  {path: '**', component: ErrorComponent },
 ];
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ErrorComponent,
+    HomeComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
