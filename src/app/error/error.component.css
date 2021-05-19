@@ -1,0 +1,15 @@
+h1 {
+  position: absolute;
+  /*width: 220px;*/
+  height: 25px;
+  left: 10px;
+  top: 500px;
+
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100px;
+  line-height: 12px;
+
+  color: #404040;
+}

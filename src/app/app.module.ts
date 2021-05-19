@@ -8,6 +8,7 @@ import {RouterModule, Routes} from "@angular/router";
 import { ErrorComponent } from './error/error.component';
 import { HomeComponent } from './home/home.component';
 import { MenuComponent } from './menu/menu.component';
+import { FooterComponent } from './footer/footer.component';
 
 const approutes: Routes = [
   /*{path: 'exemple', component: ExempleComponent},
@@ -21,7 +22,8 @@ const approutes: Routes = [
     AppComponent,
     ErrorComponent,
     HomeComponent,
-    MenuComponent
+    MenuComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

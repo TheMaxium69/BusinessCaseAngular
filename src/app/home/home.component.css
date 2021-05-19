@@ -168,3 +168,156 @@ p#nbPageHP{
 
   color: #000000;
 }
+
+div#fontArt{
+  position: absolute;
+  height: 684px;
+  left: 12px;
+  right: 13px;
+  top: 416px;
+
+  background: #FFFFFF;
+  filter: blur(4px);
+}
+
+div.divArt{
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+
+  position: absolute;
+  width: 383px;
+  height: 145px;
+}
+
+div.One{
+  top: 439px;
+}
+
+div.Two{
+  top: 625px;
+}
+
+div.Three{
+  top: 811px;
+}
+
+div.Left{
+  left: calc(50% - 383px/2 - 447.5px);
+}
+
+div.Center{
+  left: calc(50% - 383px/2 - 0.5px);
+}
+
+div.Right{
+  left: calc(50% - 383px/2 + 449.5px);
+}
+
+div.imgArt{
+  position: absolute;
+  height: 145px;
+  left: 0%;
+  right: 56.55%;
+  top: 0px;
+
+  background: url("/assets/annonce.jpg");
+  background-repeat: no-repeat;
+
+  background-position: top 0px left -20px;
+  background-size: cover;
+}
+
+div.divTxtArt{
+  position: absolute;
+  width: 197px;
+  height: 131px;
+  left: 181px;
+  top: 11px;
+}
+
+p.txtArt{
+  position: absolute;
+  font-family: Oxanium;
+  font-style: normal;
+  color: #000000;
+}
+
+p.titleArt{
+  left: 0%;
+  right: 11.68%;
+  top: 0%;
+  bottom: 87.02%;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+p.prixArt{
+  left: 31.98%;
+  right: 43.65%;
+  top: 23.66%;
+  bottom: 62.6%;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #CE2F2F;
+}
+
+p.kmArt{
+  left: 30.46%;
+  right: 42.13%;
+  top: 41.98%;
+  bottom: 48.09%;
+
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+p.descArt{
+  left: 17.77%;
+  right: 30.46%;
+  top: 56.49%;
+  bottom: 23.66%;
+
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+}
+
+p.dateArt{
+  left: 68.02%;
+  right: 3.55%;
+  top: 93.89%;
+  bottom: 0.76%;
+
+  font-weight: 500;
+  font-size: 6px;
+  line-height: 7px;
+}
+
+
+
+
+p#nbDownPage{
+
+  position: absolute;
+  width: 214px;
+  height: 18px;
+  left: calc(50% - 214px/2 + 3px);
+  top: 1002px;
+
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+
+  color: #000000;
+}
