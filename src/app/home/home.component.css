@@ -321,3 +321,21 @@ p#nbDownPage{
 
   color: #000000;
 }
+
+nav#nbDown{
+  osition: absolute;
+  width: 214px;
+  height: 18px;
+  left: calc(50% - 214px/2 + 3px);
+  top: 1002px;
+
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+
+  color: #000000;
+}
